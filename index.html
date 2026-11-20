@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.title">Georgia Women's Travel Companion | Female-Led Private Trips in Tbilisi</title>
+  <meta name="description" content="Women-only private trips in Tbilisi, Batumi and across the country of Georgia. A female-led companion, planner and protection team by your side — safe, private and unforgettable.">
+  <meta property="og:title" content="Georgia Women's Travel Companion">
+  <meta property="og:description" content="Women-only private trips in Tbilisi, Batumi and across the country of Georgia.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1603350576276-24747f7bbf40?w=1200&q=80&auto=format&fit=crop">
+  <meta name="theme-color" content="#0E0E11">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600&family=Open+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css">
+  <link rel="stylesheet" href="css/style.css?v=2">
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230E0E11'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' fill='%23F0EBE5' text-anchor='middle'%3EGW%3C/text%3E%3C/svg%3E">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="site-header__inner">
+      <div class="site-header__left">
+        <button class="burger" id="menuOpen" type="button" aria-controls="siteMenu" aria-expanded="false" data-i18n-aria="nav.menu" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <a class="site-header__plan" href="#plan" data-i18n="nav.plan">Plan Your Trip</a>
+      </div>
+
+      <a class="logo" href="#top" aria-label="Georgia Women's Travel Companion">
+        <svg viewBox="0 0 60 60" width="52" height="52" aria-hidden="true">
+          <circle cx="30" cy="30" r="28.5" fill="none" stroke="currentColor" stroke-width="1"/>
+          <text x="30" y="37" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="19" fill="currentColor" letter-spacing="1">GW</text>
+        </svg>
+      </a>
+
+      <div class="site-header__right">
+        <div class="lang" id="langSwitcher">
+          <button class="lang__current" id="langButton" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="langList" data-i18n-aria="nav.language" aria-label="Language">
+            <span class="fi fi-us lang__flag" id="langCurrentFlag" aria-hidden="true"></span>
+            <span class="lang__name" id="langCurrentName">English</span>
+            <svg class="lang__chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+          </button>
+          <ul class="lang__list" id="langList" role="listbox" tabindex="-1" hidden></ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MENU OVERLAY ============ -->
+  <div class="menu" id="siteMenu" hidden>
+    <div class="menu__inner">
+      <button class="menu__close" id="menuClose" type="button" data-i18n-aria="nav.close" aria-label="Close">
+        <span></span><span></span>
+      </button>
+      <nav aria-label="Main">
+        <ul class="menu__list">
+          <li><a href="#top" data-i18n="nav.home">Home</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#plan" data-i18n="nav.companions">Your Companions</a></li>
+          <li><a href="#planner" data-i18n="nav.planner">Your Planner</a></li>
+          <li><a href="#faq" data-i18n="nav.faq">Questions</a></li>
+          <li><a href="#join" data-i18n="nav.contact">Join the Circle</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--light menu__cta" href="#plan" data-i18n="nav.plan">Plan Your Trip</a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <video class="hero__video" id="heroVideo" autoplay muted loop playsinline preload="auto"
+             poster="https://images.unsplash.com/photo-1603350576276-24747f7bbf40?w=1920&q=80&auto=format&fit=crop">
+        <!-- Your own video: save it as media/hero.mp4 and uncomment the next line. -->
+        <!-- <source src="media/hero.mp4" type="video/mp4"> -->
+        <source src="https://videos.pexels.com/video-files/20192771/20192771-hd_1920_1080_24fps.mp4" type="video/mp4">
+      </video>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__content">
+        <h1 class="hero__title" id="heroTitle" data-i18n="hero.title">Georgia Women's Travel Companion</h1>
+        <p class="hero__tagline italic" data-i18n="hero.tagline">Travel Georgia freely, safely and beautifully.</p>
+        <p class="hero__text" data-i18n="hero.text">Private, female-led journeys through Tbilisi, Batumi and the Caucasus — with a trusted companion, discreet protection and every detail arranged before you land.</p>
+        <a class="btn btn--light" href="#plan" data-i18n="hero.cta">Plan Your Trip</a>
+      </div>
+    </section>
+
+    <!-- ============ INTRO ============ -->
+    <section class="intro section" aria-labelledby="introTitle">
+      <div class="container container--narrow center">
+        <p class="kicker" data-i18n="intro.kicker">The Art of Travelling Well</p>
+        <h2 class="h2" id="introTitle" data-i18n="intro.title">A companion who knows Georgia, and knows what a woman travelling needs.</h2>
+        <p data-i18n="intro.p1">We are a women-only travel companion service based in Georgia.</p>
+        <p data-i18n="intro.p2">From the first message to the last transfer, one dedicated team stays with you.</p>
+      </div>
+    </section>
+
+    <!-- ============ QUOTE ============ -->
+    <section class="quote" aria-label="Quote">
+      <div class="container container--narrow center">
+        <p class="quote__text italic" data-i18n="quote.text">True freedom in travel is knowing someone has already thought of everything.</p>
+      </div>
+    </section>
+
+    <!-- ============ SLIDES (continuously changing photos) ============ -->
+    <section class="slides section" aria-labelledby="slidesTitle">
+      <div class="container center">
+        <h2 class="h2" id="slidesTitle" data-i18n="slides.title">Designed for Women Who Travel Differently</h2>
+        <p class="sub italic" data-i18n="slides.sub">Your time matters. Your safety is not negotiable. Your journey should feel like yours.</p>
+      </div>
+      <div class="slides__grid">
+        <figure class="slide-card">
+          <div class="fader" data-fader data-interval="5200" data-delay="0">
+            <img class="fader__img is-active" src="https://images.unsplash.com/photo-1611905998781-f21744fcad47?w=900&q=80&auto=format&fit=crop" alt="Tbilisi old town clock tower">
+            <img class="fader__img" loading="lazy" src="https://images.unsplash.com/photo-1603350576276-24747f7bbf40?w=900&q=80&auto=format&fit=crop" alt="Tbilisi from above">
+            <img class="fader__img" loading="lazy" src="https://images.unsplash.com/photo-1763935907913-e08aada6c52c?w=900&q=80&auto=format&fit=crop" alt="Street in Tbilisi">
+          </div>
+          <figcaption class="slide-card__label" data-i18n="slides.l1">Safety, planned before you arrive</figcaption>
+        </figure>
+        <figure class="slide-card">
+          <div class="fader" data-fader data-interval="5200" data-delay="1300">
+            <img class="fader__img is-active" src="https://images.unsplash.com/photo-1783853829362-66794b360f95?w=900&q=80&auto=format&fit=crop" alt="Woman on marble stairs">
+            <img class="fader__img" loading="lazy" src="https://images.unsplash.com/photo-1778660999569-cf604f9a382c?w=900&q=80&auto=format&fit=crop" alt="Woman relaxing by a pool">
+            <img class="fader__img" loading="lazy" src="https://images.unsplash.com/photo-1775203794971-23ff7d937fb4?w=900&q=80&auto=format&fit=crop" alt="Woman in a black dress on a boat">
+          </div>
+          <figcaption class="slide-card__label" data-i18n="slides.l2">Privacy at every step</figcaption>
+        </figure>
+        <figure class="slide-card">
+          <div class="fader" data-fader data-interval="5200" data-delay="2600">
+            <img class="fader__img is-active" src="https://images.unsplash.com/photo-1563284223-333497472e88?w=900&q=80&auto=format&fit=crop" alt="Gergeti Trinity Church, Kazbegi">
+            <img class="fader__img" loading="lazy" src="https://images.unsplash.com/photo-1715258415076-0a981a8a2581?w=900&q=80&auto=format&fit=crop" alt="Georgian wine cellar">
+            <img class="fader__img" loading="lazy" src="https://images.unsplash.com/photo-1607068798195-d26a9703b277?w=900&q=80&auto=format&fit=crop" alt="Mountain lake in Georgia">
+          </div>
+          <figcaption class="slide-card__label" data-i18n="slides.l3">Beauty, culture and joy without worry</figcaption>
+        </figure>
+        <figure class="slide-card">
+          <div class="fader" data-fader data-interval="5200" data-delay="3900">
+            <img class="fader__img is-active" src="https://images.unsplash.com/photo-1625566360146-918001e76064?w=900&q=80&auto=format&fit=crop" alt="Batumi skyline">
+            <img class="fader__img" loading="lazy" src="https://images.unsplash.com/photo-1624962562277-180d4d2e9e3d?w=900&q=80&auto=format&fit=crop" alt="Batumi ferris wheel at night">
+            <img class="fader__img" loading="lazy" src="https://images.unsplash.com/photo-1758472318611-b86a5315ee34?w=900&q=80&auto=format&fit=crop" alt="Batumi beach">
+          </div>
+          <figcaption class="slide-card__label" data-i18n="slides.l4">A woman by your side, whenever you want</figcaption>
+        </figure>
+      </div>
+      <div class="center">
+        <a class="btn btn--dark" href="#join" data-i18n="slides.cta">Start Planning With Us</a>
+      </div>
+    </section>
+
+    <!-- ============ BAND (every journey is planned) ============ -->
+    <section class="band" aria-label="Every journey is planned">
+      <div class="fader fader--bg" data-fader data-interval="6500" data-delay="0" aria-hidden="true">
+        <img class="fader__img is-active" src="https://images.unsplash.com/photo-1592024354777-3d4e1fd44937?w=1920&q=80&auto=format&fit=crop" alt="">
+        <img class="fader__img" loading="lazy" src="https://images.unsplash.com/photo-1565008576549-57569a49371d?w=1920&q=80&auto=format&fit=crop" alt="">
+        <img class="fader__img" loading="lazy" src="https://images.unsplash.com/photo-1761927206868-58fedbcdaf0d?w=1920&q=80&auto=format&fit=crop" alt="">
+      </div>
+      <div class="band__shade" aria-hidden="true"></div>
+      <div class="band__content container center">
+        <p class="band__line1" data-i18n="band.line1">Every journey is planned. Every detail is handled.</p>
+        <p class="band__line2 italic" data-i18n="band.line2">You travel lightly. We carry the rest.</p>
+      </div>
+    </section>
+
+    <!-- ============ HOW WE WORK ============ -->
+    <section class="how section" id="how" aria-labelledby="howTitle">
+      <div class="container center">
+        <h2 class="h2" id="howTitle" data-i18n="how.title">How We Work</h2>
+        <p class="sub italic" data-i18n="how.sub">Four calm steps from your first message to your safe return home.</p>
+      </div>
+      <ol class="container how__steps">
+        <li class="how__step">
+          <span class="how__num" aria-hidden="true">01</span>
+          <h3 class="h3" data-i18n="how.s1.title">Private Conversation</h3>
+          <p data-i18n="how.s1.text">We listen first.</p>
+        </li>
+        <li class="how__step">
+          <span class="how__num" aria-hidden="true">02</span>
+          <h3 class="h3" data-i18n="how.s2.title">Your Personal Plan</h3>
+          <p data-i18n="how.s2.text">We design your itinerary.</p>
+        </li>
+        <li class="how__step">
+          <span class="how__num" aria-hidden="true">03</span>
+          <h3 class="h3" data-i18n="how.s3.title">Companion &amp; Protection</h3>
+          <p data-i18n="how.s3.text">We match you with a female companion.</p>
+        </li>
+        <li class="how__step">
+          <span class="how__num" aria-hidden="true">04</span>
+          <h3 class="h3" data-i18n="how.s4.title">On the Ground, 24/7</h3>
+          <p data-i18n="how.s4.text">Your team is reachable day and night.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services section section--cream" id="services" aria-labelledby="servicesTitle">
+      <div class="container center">
+        <p class="kicker" data-i18n="services.kicker">Our Services in Georgia</p>
+        <h2 class="h2" id="servicesTitle" data-i18n="services.title">Georgia, Designed Around Women</h2>
+        <p class="sub italic" data-i18n="services.sub">Everything a woman needs to travel through Georgia with confidence.</p>
+      </div>
+      <ul class="container services__grid">
+        <li class="service"><span class="service__num">01</span><h3 class="h3" data-i18n="services.s1.title">Close Protection</h3><p data-i18n="services.s1.text"></p></li>
+        <li class="service"><span class="service__num">02</span><h3 class="h3" data-i18n="services.s2.title">Private Travel Planning</h3><p data-i18n="services.s2.text"></p></li>
+        <li class="service"><span class="service__num">03</span><h3 class="h3" data-i18n="services.s3.title">Privacy &amp; Discretion</h3><p data-i18n="services.s3.text"></p></li>
+        <li class="service"><span class="service__num">04</span><h3 class="h3" data-i18n="services.s4.title">Female Chauffeurs &amp; Secure Transfers</h3><p data-i18n="services.s4.text"></p></li>
+        <li class="service"><span class="service__num">05</span><h3 class="h3" data-i18n="services.s5.title">Vetted Accommodation</h3><p data-i18n="services.s5.text"></p></li>
+        <li class="service"><span class="service__num">06</span><h3 class="h3" data-i18n="services.s6.title">Safe-Zone Briefings &amp; Maps</h3><p data-i18n="services.s6.text"></p></li>
+        <li class="service"><span class="service__num">07</span><h3 class="h3" data-i18n="services.s7.title">Scam &amp; Fraud Protection</h3><p data-i18n="services.s7.text"></p></li>
+        <li class="service"><span class="service__num">08</span><h3 class="h3" data-i18n="services.s8.title">Nightlife &amp; Dining Companion</h3><p data-i18n="services.s8.text"></p></li>
+        <li class="service"><span class="service__num">09</span><h3 class="h3" data-i18n="services.s9.title">Shopping &amp; Personal Styling</h3><p data-i18n="services.s9.text"></p></li>
+        <li class="service"><span class="service__num">10</span><h3 class="h3" data-i18n="services.s10.title">Wellness &amp; Beauty</h3><p data-i18n="services.s10.text"></p></li>
+        <li class="service"><span class="service__num">11</span><h3 class="h3" data-i18n="services.s11.title">Secure Payments &amp; Currency</h3><p data-i18n="services.s11.text"></p></li>
+        <li class="service"><span class="service__num">12</span><h3 class="h3" data-i18n="services.s12.title">24/7 Concierge Line</h3><p data-i18n="services.s12.text"></p></li>
+        <li class="service"><span class="service__num">13</span><h3 class="h3" data-i18n="services.s13.title">Medical &amp; Emergency Support</h3><p data-i18n="services.s13.text"></p></li>
+        <li class="service"><span class="service__num">14</span><h3 class="h3" data-i18n="services.s14.title">Translation &amp; Cultural Guidance</h3><p data-i18n="services.s14.text"></p></li>
+        <li class="service"><span class="service__num">15</span><h3 class="h3" data-i18n="services.s15.title">VIP Upgrades &amp; Experiences</h3><p data-i18n="services.s15.text"></p></li>
+      </ul>
+      <div class="center">
+        <a class="btn btn--dark" href="#join" data-i18n="services.cta">Request a Private Consultation</a>
+      </div>
+    </section>
+
+    <!-- ============ PARTNERS (Georgia) ============ -->
+    <section class="partners section" aria-labelledby="partnersTitle">
+      <div class="container center">
+        <p class="kicker" data-i18n="partners.kicker">Our Network in Georgia</p>
+        <h2 class="h2" id="partnersTitle" data-i18n="partners.title">Trusted Partners Across Georgia</h2>
+        <p class="sub italic" data-i18n="partners.sub">Hotels, wineries, drivers and venues we know personally.</p>
+        <p class="partners__text" data-i18n="partners.text"></p>
+      </div>
+      <ul class="container partners__grid">
+        <li class="partner"><span data-i18n="partners.logo">Partner logo</span></li>
+        <li class="partner"><span data-i18n="partners.logo">Partner logo</span></li>
+        <li class="partner"><span data-i18n="partners.logo">Partner logo</span></li>
+        <li class="partner"><span data-i18n="partners.logo">Partner logo</span></li>
+        <li class="partner"><span data-i18n="partners.logo">Partner logo</span></li>
+        <li class="partner"><span data-i18n="partners.logo">Partner logo</span></li>
+        <li class="partner"><span data-i18n="partners.logo">Partner logo</span></li>
+        <li class="partner"><span data-i18n="partners.logo">Partner logo</span></li>
+      </ul>
+    </section>
+
+    <!-- ============ COMPANIONS / PLAN YOUR TRIP ============ -->
+    <section class="companions section section--cream" id="plan" aria-labelledby="companionsTitle">
+      <div class="container center">
+        <p class="kicker" data-i18n="companions.kicker">Plan Your Trip</p>
+        <h2 class="h2" id="companionsTitle" data-i18n="companions.title">Choose Your Companion</h2>
+        <p class="sub italic" data-i18n="companions.sub"></p>
+      </div>
+      <div class="container companions__grid">
+        <!-- Companion 1 — put the photo at images/companions/companion-1.jpg -->
+        <article class="companion">
+          <!-- Photo: save as images/companions/companion-N.jpg and set data-src="images/companions/companion-N.jpg" on the slot below. -->
+          <div class="photo-slot" data-photo-slot data-src="">
+            <img class="photo-slot__img" alt="" data-i18n-alt="companions.name" hidden>
+            <label class="photo-slot__add">
+              <input type="file" accept="image/*" class="visually-hidden">
+              <span class="photo-slot__plus" aria-hidden="true">+</span>
+              <span data-i18n="companions.addPhoto">Add photo</span>
+            </label>
+          </div>
+          <div class="companion__body">
+            <h3 class="h3" data-i18n="companions.name">Companion Name</h3>
+            <p class="companion__role" data-i18n="companions.role1">Senior Travel Companion</p>
+            <div class="companion__block"><h4 data-i18n="companions.cvTitle">Curriculum Vitae</h4><p data-i18n="companions.cvPlaceholder"></p></div>
+            <div class="companion__block"><h4 data-i18n="companions.eduTitle">Education</h4><p data-i18n="companions.eduPlaceholder"></p></div>
+            <div class="companion__block"><h4 data-i18n="companions.langTitle">Languages</h4><p data-i18n="companions.langPlaceholder"></p></div>
+            <button class="btn btn--dark btn--full" type="button" data-companion="1" data-i18n="companions.choose">Request This Companion</button>
+          </div>
+        </article>
+        <!-- Companion 2 -->
+        <article class="companion">
+          <div class="photo-slot" data-photo-slot data-src="">
+            <img class="photo-slot__img" alt="" data-i18n-alt="companions.name" hidden>
+            <label class="photo-slot__add">
+              <input type="file" accept="image/*" class="visually-hidden">
+              <span class="photo-slot__plus" aria-hidden="true">+</span>
+              <span data-i18n="companions.addPhoto">Add photo</span>
+            </label>
+          </div>
+          <div class="companion__body">
+            <h3 class="h3" data-i18n="companions.name">Companion Name</h3>
+            <p class="companion__role" data-i18n="companions.role2">Close Protection Specialist</p>
+            <div class="companion__block"><h4 data-i18n="companions.cvTitle">Curriculum Vitae</h4><p data-i18n="companions.cvPlaceholder"></p></div>
+            <div class="companion__block"><h4 data-i18n="companions.eduTitle">Education</h4><p data-i18n="companions.eduPlaceholder"></p></div>
+            <div class="companion__block"><h4 data-i18n="companions.langTitle">Languages</h4><p data-i18n="companions.langPlaceholder"></p></div>
+            <button class="btn btn--dark btn--full" type="button" data-companion="2" data-i18n="companions.choose">Request This Companion</button>
+          </div>
+        </article>
+        <!-- Companion 3 -->
+        <article class="companion">
+          <div class="photo-slot" data-photo-slot data-src="">
+            <img class="photo-slot__img" alt="" data-i18n-alt="companions.name" hidden>
+            <label class="photo-slot__add">
+              <input type="file" accept="image/*" class="visually-hidden">
+              <span class="photo-slot__plus" aria-hidden="true">+</span>
+              <span data-i18n="companions.addPhoto">Add photo</span>
+            </label>
+          </div>
+          <div class="companion__body">
+            <h3 class="h3" data-i18n="companions.name">Companion Name</h3>
+            <p class="companion__role" data-i18n="companions.role3">Culture &amp; Lifestyle Guide</p>
+            <div class="companion__block"><h4 data-i18n="companions.cvTitle">Curriculum Vitae</h4><p data-i18n="companions.cvPlaceholder"></p></div>
+            <div class="companion__block"><h4 data-i18n="companions.eduTitle">Education</h4><p data-i18n="companions.eduPlaceholder"></p></div>
+            <div class="companion__block"><h4 data-i18n="companions.langTitle">Languages</h4><p data-i18n="companions.langPlaceholder"></p></div>
+            <button class="btn btn--dark btn--full" type="button" data-companion="3" data-i18n="companions.choose">Request This Companion</button>
+          </div>
+        </article>
+        <!-- Companion 4 -->
+        <article class="companion">
+          <div class="photo-slot" data-photo-slot data-src="">
+            <img class="photo-slot__img" alt="" data-i18n-alt="companions.name" hidden>
+            <label class="photo-slot__add">
+              <input type="file" accept="image/*" class="visually-hidden">
+              <span class="photo-slot__plus" aria-hidden="true">+</span>
+              <span data-i18n="companions.addPhoto">Add photo</span>
+            </label>
+          </div>
+          <div class="companion__body">
+            <h3 class="h3" data-i18n="companions.name">Companion Name</h3>
+            <p class="companion__role" data-i18n="companions.role4">Wellness &amp; Concierge Host</p>
+            <div class="companion__block"><h4 data-i18n="companions.cvTitle">Curriculum Vitae</h4><p data-i18n="companions.cvPlaceholder"></p></div>
+            <div class="companion__block"><h4 data-i18n="companions.eduTitle">Education</h4><p data-i18n="companions.eduPlaceholder"></p></div>
+            <div class="companion__block"><h4 data-i18n="companions.langTitle">Languages</h4><p data-i18n="companions.langPlaceholder"></p></div>
+            <button class="btn btn--dark btn--full" type="button" data-companion="4" data-i18n="companions.choose">Request This Companion</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PLANNER ============ -->
+    <section class="planner section" id="planner" aria-labelledby="plannerTitle">
+      <div class="container center">
+        <p class="kicker" data-i18n="planner.kicker">Your Travel Planner</p>
+        <h2 class="h2" id="plannerTitle" data-i18n="planner.title">Meet Your Travel Planner</h2>
+        <p class="sub italic" data-i18n="planner.sub"></p>
+      </div>
+      <div class="container planner__grid">
+        <div class="planner__photos">
+          <!-- Planner photos — put them at images/planner/planner-1.jpg and planner-2.jpg -->
+          <!-- Photos: save as images/planner/planner-1.jpg / planner-2.jpg and set data-src on each slot. -->
+          <div class="photo-slot photo-slot--tall" data-photo-slot data-src="">
+            <img class="photo-slot__img" alt="" data-i18n-alt="planner.photo1" hidden>
+            <label class="photo-slot__add">
+              <input type="file" accept="image/*" class="visually-hidden">
+              <span class="photo-slot__plus" aria-hidden="true">+</span>
+              <span data-i18n="planner.photo1">Planner photo</span>
+            </label>
+          </div>
+          <div class="photo-slot photo-slot--tall photo-slot--offset" data-photo-slot data-src="">
+            <img class="photo-slot__img" alt="" data-i18n-alt="planner.photo2" hidden>
+            <label class="photo-slot__add">
+              <input type="file" accept="image/*" class="visually-hidden">
+              <span class="photo-slot__plus" aria-hidden="true">+</span>
+              <span data-i18n="planner.photo2">Planner at work</span>
+            </label>
+          </div>
+        </div>
+        <div class="planner__text">
+          <p data-i18n="planner.p1"></p>
+          <p data-i18n="planner.p2"></p>
+          <h3 class="h3 planner__listTitle" data-i18n="planner.listTitle">What your planner takes care of</h3>
+          <ul class="planner__list">
+            <li data-i18n="planner.l1"></li>
+            <li data-i18n="planner.l2"></li>
+            <li data-i18n="planner.l3"></li>
+            <li data-i18n="planner.l4"></li>
+            <li data-i18n="planner.l5"></li>
+            <li data-i18n="planner.l6"></li>
+            <li data-i18n="planner.l7"></li>
+            <li data-i18n="planner.l8"></li>
+            <li data-i18n="planner.l9"></li>
+            <li data-i18n="planner.l10"></li>
+            <li data-i18n="planner.l11"></li>
+            <li data-i18n="planner.l12"></li>
+          </ul>
+          <a class="btn btn--dark" href="#join" data-i18n="planner.cta">Connect With Your Planner</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq section section--cream" id="faq" aria-labelledby="faqTitle">
+      <div class="container container--narrow">
+        <h2 class="h2 center" id="faqTitle" data-i18n="faq.title">Frequently Asked Questions</h2>
+        <div class="faq__list" id="faqList">
+          <div class="faq__item"><h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a1" id="faq-q1"><span data-i18n="faq.q1"></span><span class="faq__icon" aria-hidden="true"></span></button></h3><div class="faq__a" id="faq-a1" role="region" aria-labelledby="faq-q1" hidden><p data-i18n="faq.a1"></p></div></div>
+          <div class="faq__item"><h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a2" id="faq-q2"><span data-i18n="faq.q2"></span><span class="faq__icon" aria-hidden="true"></span></button></h3><div class="faq__a" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden><p data-i18n="faq.a2"></p></div></div>
+          <div class="faq__item"><h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a3" id="faq-q3"><span data-i18n="faq.q3"></span><span class="faq__icon" aria-hidden="true"></span></button></h3><div class="faq__a" id="faq-a3" role="region" aria-labelledby="faq-q3" hidden><p data-i18n="faq.a3"></p></div></div>
+          <div class="faq__item"><h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a4" id="faq-q4"><span data-i18n="faq.q4"></span><span class="faq__icon" aria-hidden="true"></span></button></h3><div class="faq__a" id="faq-a4" role="region" aria-labelledby="faq-q4" hidden><p data-i18n="faq.a4"></p></div></div>
+          <div class="faq__item"><h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a5" id="faq-q5"><span data-i18n="faq.q5"></span><span class="faq__icon" aria-hidden="true"></span></button></h3><div class="faq__a" id="faq-a5" role="region" aria-labelledby="faq-q5" hidden><p data-i18n="faq.a5"></p></div></div>
+          <div class="faq__item"><h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a6" id="faq-q6"><span data-i18n="faq.q6"></span><span class="faq__icon" aria-hidden="true"></span></button></h3><div class="faq__a" id="faq-a6" role="region" aria-labelledby="faq-q6" hidden><p data-i18n="faq.a6"></p></div></div>
+          <div class="faq__item"><h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a7" id="faq-q7"><span data-i18n="faq.q7"></span><span class="faq__icon" aria-hidden="true"></span></button></h3><div class="faq__a" id="faq-a7" role="region" aria-labelledby="faq-q7" hidden><p data-i18n="faq.a7"></p></div></div>
+          <div class="faq__item"><h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a8" id="faq-q8"><span data-i18n="faq.q8"></span><span class="faq__icon" aria-hidden="true"></span></button></h3><div class="faq__a" id="faq-a8" role="region" aria-labelledby="faq-q8" hidden><p data-i18n="faq.a8"></p></div></div>
+          <div class="faq__item"><h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a9" id="faq-q9"><span data-i18n="faq.q9"></span><span class="faq__icon" aria-hidden="true"></span></button></h3><div class="faq__a" id="faq-a9" role="region" aria-labelledby="faq-q9" hidden><p data-i18n="faq.a9"></p></div></div>
+          <div class="faq__item"><h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a10" id="faq-q10"><span data-i18n="faq.q10"></span><span class="faq__icon" aria-hidden="true"></span></button></h3><div class="faq__a" id="faq-a10" role="region" aria-labelledby="faq-q10" hidden><p data-i18n="faq.a10"></p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CLOSING ============ -->
+    <section class="closing" aria-label="This is travel">
+      <div class="fader fader--bg" data-fader data-interval="7000" data-delay="0" aria-hidden="true">
+        <img class="fader__img is-active" loading="lazy" src="https://images.unsplash.com/photo-1761416671105-9b01fcb54b25?w=1920&q=80&auto=format&fit=crop" alt="">
+        <img class="fader__img" loading="lazy" src="https://images.unsplash.com/photo-1577701122197-c9607038bd90?w=1920&q=80&auto=format&fit=crop" alt="">
+        <img class="fader__img" loading="lazy" src="https://images.unsplash.com/photo-1559787248-5beaa0e086bc?w=1920&q=80&auto=format&fit=crop" alt="">
+      </div>
+      <div class="closing__shade" aria-hidden="true"></div>
+      <div class="closing__content container center">
+        <p class="closing__line">
+          <span data-i18n="closing.lead">This is travel,</span>
+          <span class="rotator" id="rotator" aria-live="off">
+            <span class="rotator__word italic is-active" data-i18n="closing.w1">safe</span>
+            <span class="rotator__word italic" data-i18n="closing.w2">private</span>
+            <span class="rotator__word italic" data-i18n="closing.w3">effortless</span>
+            <span class="rotator__word italic" data-i18n="closing.w4">unforgettable</span>
+            <span class="rotator__word italic" data-i18n="closing.w5">yours</span>
+          </span>
+        </p>
+        <p class="closing__text" data-i18n="closing.text">We don't just plan your trip. We stay with you through every moment of it.</p>
+        <a class="btn btn--light" href="#join" data-i18n="closing.cta">Request a Private Consultation</a>
+      </div>
+    </section>
+
+    <!-- ============ JOIN THE CIRCLE ============ -->
+    <section class="join section section--cream" id="join" aria-labelledby="joinTitle">
+      <div class="container container--form">
+        <div class="center">
+          <p class="kicker" data-i18n="join.kicker">Join the Circle</p>
+          <h2 class="h2" id="joinTitle" data-i18n="join.title">Begin a Private Conversation</h2>
+          <p class="sub italic" data-i18n="join.text"></p>
+        </div>
+
+        <form class="form" id="joinForm" novalidate enctype="multipart/form-data">
+          <input type="hidden" name="companion" id="companionField" value="">
+          <input type="hidden" name="language" id="languageField" value="en">
+          <div class="form__row">
+            <div class="field">
+              <label for="firstName" data-i18n="join.firstName">First Name</label>
+              <input id="firstName" name="firstName" type="text" autocomplete="given-name" required maxlength="80">
+            </div>
+            <div class="field">
+              <label for="lastName" data-i18n="join.lastName">Last Name</label>
+              <input id="lastName" name="lastName" type="text" autocomplete="family-name" required maxlength="80">
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="field">
+              <label for="phone" data-i18n="join.phone">Phone Number</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required maxlength="30" dir="ltr">
+            </div>
+            <div class="field">
+              <label for="email" data-i18n="join.email">Email Address</label>
+              <input id="email" name="email" type="email" autocomplete="email" maxlength="120" dir="ltr">
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="field">
+              <label for="dates" data-i18n="join.dates">Approximate Dates</label>
+              <input id="dates" name="dates" type="text" maxlength="80">
+            </div>
+            <div class="field">
+              <span class="field__label" id="photoLabel" data-i18n="join.photo">Your Photo</span>
+              <div class="upload">
+                <label class="upload__btn" for="photo">
+                  <span data-i18n="join.photoChoose">Choose photo</span>
+                </label>
+                <input id="photo" name="photo" type="file" accept="image/*" class="visually-hidden" aria-labelledby="photoLabel">
+                <img class="upload__preview" id="photoPreview" alt="" hidden>
+                <span class="upload__name" id="photoName" dir="auto"></span>
+              </div>
+              <small class="field__hint" data-i18n="join.photoHint">Optional. Helps your companion recognise you at arrival.</small>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message" data-i18n="join.message">Tell us about your trip</label>
+            <textarea id="message" name="message" rows="5" maxlength="3000"></textarea>
+          </div>
+          <div class="field field--check">
+            <input id="consent" name="consent" type="checkbox" value="yes" required>
+            <label for="consent" data-i18n="join.consent">I agree that my information will be used only to plan my trip.</label>
+          </div>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite" hidden></p>
+          <div class="center">
+            <button class="btn btn--dark" type="submit" id="submitBtn" data-i18n="join.submit">Send Request</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="logo logo--footer" href="#top" aria-label="Georgia Women's Travel Companion">
+        <svg viewBox="0 0 60 60" width="52" height="52" aria-hidden="true">
+          <circle cx="30" cy="30" r="28.5" fill="none" stroke="currentColor" stroke-width="1"/>
+          <text x="30" y="37" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="19" fill="currentColor" letter-spacing="1">GW</text>
+        </svg>
+      </a>
+      <p class="footer__brand">Georgia Women's Travel Companion</p>
+      <p class="footer__tagline italic" data-i18n="footer.tagline">Private, female-led travel in the country of Georgia.</p>
+      <ul class="footer__links">
+        <li><a href="#plan" data-i18n="nav.plan">Plan Your Trip</a></li>
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">Questions</a></li>
+        <li><a href="#join" data-i18n="nav.contact">Join the Circle</a></li>
+      </ul>
+      <p class="footer__legal">
+        © <span id="year">2026</span> Georgia Women's Travel Companion. <span data-i18n="footer.rights">All rights reserved.</span>
+        <a href="#" data-i18n="footer.privacy">Privacy Policy</a> · <a href="#" data-i18n="footer.terms">Terms &amp; Conditions</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="i18n/en.js?v=2"></script>
+  <script src="js/i18n.js?v=2"></script>
+  <script src="js/main.js?v=2"></script>
+</body>
+</html>
